@@ -8,7 +8,7 @@ def weight_lost():
     weight = total_calories * weight_loss_formula
     weight = weight / 1000
     print(f"Weight lost after {biking} hours of biking, {jogging} hours of "
-          f"jogging and {swimming} hours of swimming: {weight:.3f} kgs")
+          f"jogging and {swimming} hours of swimming: {weight:.3f} kg")
 
 
 weight_lost()
